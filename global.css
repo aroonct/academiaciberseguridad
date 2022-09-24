@@ -2,98 +2,25 @@
 
 
 /**************************************
- CSS Index
+ CSS Global
 ****************************
 
-/--- Default Styles -----/
-
-01.Variables
-02.Mixins
-03.Reset
-04.Typography
-05.Extend
-06.Animations
-07.Shortcode
-08.Spacing
-09.Common
-10.Forms
-11.Sal
-12.Text Animation
-13.Themebg
-
-/--- Header Styles -----/
-
-01.Headerdefault
-02.Nav
-03.Header Top
-04.HeaderTopBar
-05.Mobilemenu
-
-/--- Elements -----/
-
-01.Breadcrumb
-02.Sectiontitle
-03.Button
-04.Service
-05.Card
-06.Counter
-07.Progressbar
-08.Accordion
-09.Social Share
-10.Team
-11.Portfolio
-12.Testimonial
-13.Slickslide
-14.Timeline
-15.Call to Action
-16.Tab
-17.Pricing
-18.Split
-19.Vedio
-20.Gallery
-21.Contact
-22.Brand
-23.404
-24.Advance Tab
-25.Advancepricing
-26.Contact Form
-27.Swicher
-28.Backto Top
-29.About
-30.Newsletter
-
-/--- Blog -----/
-01.Blog
-02.Sidebar
-03.Blog Details
-
-/--- Footer -----/
-01.Footer
-02.Copyright
-
-/--- Template -----/
-01.Banner
-02.Portfoliodetails
-03.Splash
-04.Lightmode
-
-***************************************/
-/**************************************
-    Default Styles
-***************************************/
 /*-- Variables --*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/LiberationSans-Regular.ttf");
+  }
 
 :root {
     --color-primary: #059DFF;
     --color-primary-rgba: rgb(5, 157, 255);
     --color-primary-alt: #059DFF;
-    --color-primary-light: #059DFF;
+    --color-primary-light: #2771b7;
     --color-primary-lightest: #059DFF;
     /*--color-secondary: #FB5343;*/
-    --color-secondary: #E39631;
+    --color-secondary: #6f3b8f;
     /*--color-tertiary: #6549D5;*/
-    --color-tertiary: #E35531;
+    --color-tertiary: #2c2556;
     --color-tertiary-alt: #6549D5;
     --color-pink: #E33FA1;
     --color-light-green: #36C6F0;
@@ -103,8 +30,8 @@
     --color-light-green-darker: #001f27;
     --color-pink-darker: #2f011d;
     --color-heading: #ffffff;
-    --color-body: #acacac;
-    --color-dark: #060606;
+    --color-body: #ffffff;
+    --color-dark: #010101;
     --color-darker: rgba(6, 6, 6, 0.7);
     --color-darkest: rgba(0, 0, 0, 0.3);
     --color-black: #000000;
