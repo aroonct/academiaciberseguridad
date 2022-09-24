@@ -1,0 +1,67 @@
+@media  screen and (min-width: 601px) {
+    #mobileshow   { display:none; }
+}
+
+@media  only screen and (max-width: 602px) {
+ #desktopshow 
+ {display:none;}
+}
+
+
+.h80{
+    
+    heigth: calc(100% - 100px) !important;
+    
+}
+
+.ta{
+    text-align: center;
+}
+
+    .tab-button {
+        width: 345px;
+        max-width: 345px;
+        min-width: 345px;
+    }
+
+
+    .centered {
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        width: 90%;
+        font-weight: 600;
+        /*top: 70%;*/
+        top:60%;
+        line-height: 1.2;
+    }
+
+    .centered span {}
+
+    @media (max-width: 576px) {
+        .centered {
+            width: 95%;
+            top: 56%;
+            /*top:44%;*/
+            font-size:14px;
+        }
+    }
+
+    ul.tab-button-list .nav-item {
+        width: 100% !important;
+    }
+
+    ul.tab-button-list .nav-item .tab-button {
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .objheight{
+        height: 395px !important;
+    }
+
+    .apacheheight{
+        height: 490px !important;
+    }
