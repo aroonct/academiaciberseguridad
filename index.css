@@ -7,6 +7,35 @@
  {display:none;}
 }
 
+.center{
+    text-align: center;
+}
+
+.separatext{
+    letter-spacing: 5px;
+}
+
+.guion{
+    font-size: 45px;
+    font-weight: bolder;
+    width: 40px;
+    animation-duration: 1s;
+    animation-name: tintinear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes tintinear {
+    from {
+      color: white;
+    }
+  
+    to {
+      color: transparent;
+    }
+  }
+
+
 
 .h80{
     
